@@ -10,21 +10,19 @@
 * */
 #include<stdio.h>
 int main(){
- for (int n = 1; n <= 5; n++)
+ for (int i = 1; i <= 5; i++)
  {
-    
-    for (int j = n; j >= n; j--)
+    for (int j = 5; j >= i; j--)
     {
         printf(" ");
         for (int k = 1; k <= j; k++)
         {
             printf("*");
+            printf("\n");
         }
         
     }
-    printf("\n");
-    
- }
  
+ }
 
 }
