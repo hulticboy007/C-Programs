@@ -15,13 +15,13 @@ int main(){
     for (int j = 5; j >= i; j--)
     {
         printf(" ");
-        for (int k = 1; k <= j; k++)
+        for (int k = 1; k <= i; k++)
         {
             printf("*");
-            printf("\n");
+            
         }
         
-    }
+    }printf("\n");
  
  }
 
