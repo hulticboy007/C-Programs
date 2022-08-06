@@ -10,12 +10,17 @@
 * */
 #include<stdio.h>
 int main(){
- for (int n = 1; n < 5; n++)
+ for (int n = 1; n <= 5; n++)
  {
-    printf(" ");
-    for (int j = 1; j < n; j++)
+    
+    for (int j = n; j >= n; j--)
     {
-        printf("*");
+        printf(" ");
+        for (int k = 1; k <= j; k++)
+        {
+            printf("*");
+        }
+        
     }
     printf("\n");
     
