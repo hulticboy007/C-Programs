@@ -25,6 +25,7 @@ In this chapter basic c programs are covered
 18.Program to print sequence star1 \
 19.Program to print sequence star2 \
 20.Program to print sequence star3 \
+20.1.Program to print sequence star3.1 \
 21.Program to print sequence star4 \
 22.Program to  \
 23.Program to  \
