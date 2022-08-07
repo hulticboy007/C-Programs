@@ -24,7 +24,8 @@ In this chapter basic c programs are covered
 17.Program to print sum and loop \
 18.Program to print sequence star1 \
 19.Program to print sequence star2 \
-21.Program to  \
+20.Program to print sequence star3 \
+21.Program to print sequence star4 \
 22.Program to  \
 23.Program to  \
 24.Program to  \
