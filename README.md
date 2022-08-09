@@ -29,6 +29,7 @@ In this chapter basic c programs are covered
 20.b.Program to print sequence star3.2 \
 20.c.Program to print sequence star3.3 \
 20.d.Program to print sequence star3.4 \
+20.e.Program to print sequence star3.5 \
 21.Program to print sequence star4 \
 22.Program to  \
 23.Program to  \
