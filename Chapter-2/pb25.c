@@ -7,11 +7,11 @@
  * input n
  * print +i
  * s=s+i
- * 
- * 
- * 
+ * i=i+2
+ * if i<=n goto 8
+ * print sum
  * STOP
-* */
+*/
 #include<stdio.h>
 int main(){
     int n,s=0;
