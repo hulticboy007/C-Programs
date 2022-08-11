@@ -30,12 +30,12 @@ In this chapter basic c programs are covered
 20.c.Program to print sequence star3.3 \
 20.d.Program to print sequence star3.4 \
 20.e.Program to print sequence star3.5 \
-21.Program to print sequence star4 \
-22.Program to  \
-23.Program to  \
-24.Program to  \
-25.Program to  \
-26.Program to  \
+21.Program to print fibanocci series \
+22.Program to factorial of a number \
+23.Program to check if a no. is prime or not \
+24.Program to sum of series 1/n \
+25.Program to sum of odd number series \
+26.Program to print bitwise && operator result \
 27.Program to  \
 28.Program to  \
 29.Program to  \
