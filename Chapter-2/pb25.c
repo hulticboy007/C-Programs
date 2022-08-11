@@ -5,6 +5,10 @@
  * START
  * print enter the value till you which you need series
  * input n
+ * print +i
+ * s=s+i
+ * 
+ * 
  * 
  * STOP
 * */
@@ -18,7 +22,9 @@ int main(){
         /* code */
         printf("%d+",i);
         s=s+i;
+        
     }
-        printf("%d",s);
+        printf("\n");
+        printf("Sum is %d\n",s);
         return 0;
 }
