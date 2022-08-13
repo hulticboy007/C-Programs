@@ -19,7 +19,7 @@ only manageable with a clear organization and program structure.
 
 ## Chapter 2
 
-In this chapter basic c programs are covered
+In this chapter basic c programs are covered, problems from q.19 is covered, as the previous problems dont have much logic in it
 
 17.Program to print sum and loop \
 18.Program to print sequence star1 \
