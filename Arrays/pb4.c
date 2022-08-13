@@ -10,24 +10,26 @@
 * */
 #include<stdio.h>
 int main(){
-    
-    int a[]={0};
+    int b;
+    printf("Enter the datas in array: ");
+    scanf("%d",&b);
     int sum=0;
     int avg;
-    printf("Enter 5 numbers: ");
-    for (int i = 0; i <=4; i++) 
+    int a[b];
+    printf("Enter %d numbers: ",b);
+    for (int i = 0; i <=b-1; i++) 
     {
         /* code */
         scanf("%d",&a[i]);
     }
-    printf("Enter 5 numbers: ");
-    for (int i = 0; i <=4; i++) 
+    
+    for (int i = 0; i <=b-1; i++) 
     {
         /* code */
         sum = sum+ a[i];
     }
     printf("Sum is %d\n",sum);
-    avg=sum/5;
+    avg=sum/b;
     printf("Average is %d\n",avg);
     
 }
