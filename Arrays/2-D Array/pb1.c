@@ -17,7 +17,9 @@ for (int i = 0; i < 2; i++)
     for (int j = 0; j < 3; j++)
     {
         /* code */
+        printf("Enter the [%d][%d] field no: ",i,j);
         scanf("%d",&arr[i][j]);
+        printf("\n");
     }
     
 }
