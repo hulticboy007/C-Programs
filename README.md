@@ -39,7 +39,7 @@ In this chapter basic c programs are covered, problems from q.19 is covered, as 
 27.Program to  \
 28.Program to  \
 29.Program to  \
-30.Program to  \
+30.Program to find the maximum of an array \
 31.Program to  \
 32.Program to  \
 33.Program to  \
