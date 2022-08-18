@@ -1,13 +1,6 @@
-/** Program to 
- * 
- * ALGORITHM
- * 
- * START
- * 
- * 
- * 
- * STOP
-* */
+// Program to 
+
+
 #include<stdio.h>
 int main(){
 
