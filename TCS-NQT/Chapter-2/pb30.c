@@ -5,12 +5,13 @@
 int main(){
 int a[5],max,i;
 printf("Enter the values of the array: ");
-max=a[0];
+
 for (i = 0; i < 5; i++)
 {
     /* code */
     scanf("%d",&a[i]);
 }
+max=a[0];
 for (i = 1; i < 5; i++)
 {
     /* code */
