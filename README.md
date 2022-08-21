@@ -35,7 +35,7 @@ In this chapter basic c programs are covered, problems from q.19 is covered, as 
 28.Program to  \
 29.Program to  \
 30.Program to find the maximum of an array \
-31.Program to  \
+31.Program to display a matrix \
 32.Program to sum two arrays \
 33.Program to find the difference b/w two arrays \
 34.Program to multiply two arrays \
