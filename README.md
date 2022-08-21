@@ -37,7 +37,7 @@ In this chapter basic c programs are covered, problems from q.19 is covered, as 
 30.Program to find the maximum of an array \
 31.Program to  \
 32.Program to  \
-33.Program to  \
+33.Program to find the difference b/w two arrays \
 34.Program to  \
 35.Program to  \
 36.Program to  \
