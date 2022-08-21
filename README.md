@@ -38,8 +38,8 @@ In this chapter basic c programs are covered, problems from q.19 is covered, as 
 31.Program to  \
 32.Program to  \
 33.Program to find the difference b/w two arrays \
-34.Program to  \
-35.Program to  \
+34.Program to multiply two arrays \
+35.Program to transpose an array \
 36.Program to  \
 37.Program to  \
 38.Program to  
