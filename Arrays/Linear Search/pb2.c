@@ -1,4 +1,4 @@
-// Program to linear search through an array
+// Program to find through an array and give the index
 
 
 #include<stdio.h>
