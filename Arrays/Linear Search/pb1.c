@@ -6,7 +6,7 @@ int main(){
     int n,i;
     printf("Enter the value to be searched: ");
     scanf("%d",&n);
-    printf("%d is the value to be searched from the array",n);
+    printf("%d is the value to be searched from the array\n",n);
     int arr[6];
     for (i = 0; i < 6; i++)
     {
@@ -16,7 +16,19 @@ int main(){
     printf("The array values entered are: ");
     for (i = 0; i < 6; i++)
     {
-        printf("[%d,]",arr[i]);
+        printf("%d,",arr[i]);
+    }
+    for ( i = 0; i < 6; i++)
+    {
+        /* code */
+        if (arr[i]==n)
+        {
+            /* code */
+            printf("%d Value is found!\n",arr[i]);
+        }else{
+            printf("%d Value is not found!\n",arr[i]);
+        }
+        
     }
     
 }
