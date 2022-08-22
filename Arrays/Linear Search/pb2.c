@@ -15,6 +15,7 @@ int main(){
     {
         printf("%d,",arr[i]);
     }
+    printf("\n");
     printf("Enter the value to be searched: ");
     scanf("%d",&n);
     printf("%d is the value to be searched from the array\n",n);
