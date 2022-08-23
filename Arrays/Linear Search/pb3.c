@@ -4,7 +4,7 @@
 #include<stdio.h>
 int main(){
 
-    int n,i,j,arr[6],k;
+    int n,i,arr[6],j,k=0;
     for (i = 0; i < 6; i++)
     {
         printf("Enter the %d value: ",i);
@@ -17,17 +17,19 @@ int main(){
     printf("\n");
     for (i = 0; i < 6; i++)
     {
-        if (n=arr[i])
+        
+        if (n==arr[i])
         {
-            j=i+1;
             k=1;
+            j=i+1;
+            
             break;
         }
         
     }
     if (k==1)
     {
-         printf("The index of the value in array is %d.",j);
+         printf("The value is in position %d.",j);
 
     }else
     {
@@ -35,5 +37,5 @@ int main(){
     }
     
        
-    
+    return 0;
 }
