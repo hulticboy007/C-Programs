@@ -4,7 +4,7 @@
 #include<stdio.h>
 int main(){
 
-    int n,i,j,arr[6];
+    int n,i,j,arr[6],k;
     for (i = 0; i < 6; i++)
     {
         printf("Enter the %d value: ",i);
@@ -17,17 +17,23 @@ int main(){
     printf("\n");
     for (i = 0; i < 6; i++)
     {
-        if (n==arr[i])
+        if (n=arr[i])
         {
-            j=i;
+            j=i+1;
+            k=1;
             break;
-        }else{
-            printf("Value not found");
         }
         
     }
+    if (k==1)
+    {
+         printf("The index of the value in array is %d.",j);
+
+    }else
+    {
+        printf("Value not found!");
+    }
     
-    printf("The index of the value in array is %d.",i);
-    
+       
     
 }
