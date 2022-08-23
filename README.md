@@ -44,4 +44,25 @@ In this chapter basic c programs are covered, problems from q.19 is covered, as 
 37.Program to  \
 38.Program to  
 
+## Linear Search
+
+Linear search or sequential search is a method for finding a particular value in a list that
+checks each element in sequence until the desired element is found or the list is exhausted. \
+
+
+The list need not be ordered. It is the simplest search algorithm; it is a special case of brute-
+force search. \
+
+### Time Complexity
+
+-It is the measure of how long a program takes to run \
+-If there are n elements in the array : \
+Best case:-
+Match found in the first case
+Worst case:- \
+no match found, or match found in the last part \
+Average case:- \
+(n+1)/2 search operations \
+
+
 
