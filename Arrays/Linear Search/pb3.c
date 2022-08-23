@@ -15,5 +15,19 @@ int main(){
     printf("Enter the value to be searched: ");
     scanf("%d",&n);
     printf("\n");
+    for (i = 0; i < 6; i++)
+    {
+        if (n==arr[i])
+        {
+            j=i;
+            break;
+        }else{
+            printf("Value not found");
+        }
+        
+    }
+    
+    printf("The index of the value in array is %d.",i);
+    
     
 }
