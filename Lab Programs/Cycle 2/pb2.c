@@ -10,7 +10,7 @@
 * */
 #include<stdio.h>
 int main(){
-    int rows,coef=1,space,i,j;
+    int rows,coef,space,i,j;
     printf("Enter the number of rows");
     scanf("%d",&rows);
     for ( i = 0; i < rows; i++)
@@ -20,19 +20,15 @@ int main(){
             /* code */
             printf(" ");
         }
+        coef=1;
         for (j = 0; j <= i; j++)
         {
-            /* code */
-            if (j==0||i==0)
-            {
-                /* code */
-                coef=1;
-            }else{
-                coef=coef*(i-j+1)/j;
-                printf("%4d",coef);
-            }
+            printf("%d ",coef);
+            coef=coef*(i-j)/j+1;
             
         }
+            
+        
         printf("\n");
     }
     
