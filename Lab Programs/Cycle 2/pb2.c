@@ -3,9 +3,9 @@
  * ALGORITHM
  * 
  * START
- * 
- * 
- * 
+ * initialize variables
+ * Print "Enter the numbers"
+ * pri
  * STOP
 * */
 #include<stdio.h>
