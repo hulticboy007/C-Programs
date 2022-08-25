@@ -15,7 +15,7 @@ int main(){
     scanf("%d",&rows);
     for ( i = 0; i < rows; i++)
     {
-        for ( space = 1; space <= rows-i; space++)
+        for ( space = 0; space <= rows-i; space++)
         {
             /* code */
             printf(" ");
@@ -24,13 +24,10 @@ int main(){
         for (j = 0; j <= i; j++)
         {
             printf("%d ",coef);
-            coef=coef*(i-j)/j+1;
-            
-        }
-            
-        
+            coef=coef*(i-j)/(j+1); 
+        }        
         printf("\n");
-    }
+        }
     
     return 0;
 }
