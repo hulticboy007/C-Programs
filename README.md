@@ -70,8 +70,7 @@ A binary search or half-interval search algorithm finds the position of a target
 conquer search algorithm executes in logarithmic time.
 
 Basic Concept: 
-• Binary search works if the array is sorted.
-– Look for the target in the middle.
-– If you don’t find it, you can ignore half of the array, and repeat the process with the other
-half.
+• Binary search works if the array is sorted.\
+– Look for the target in the middle. \
+– If you don’t find it, you can ignore half of the array, and repeat the process with the other half. \
 • In every step, we reduce the number of elements to search in by half.
