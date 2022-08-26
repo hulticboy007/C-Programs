@@ -62,7 +62,16 @@ Match found in the first case
 Worst case:- \
 no match found, or match found in the last part \
 Average case:- \
-(n+1)/2 search operations \
+(n+1)/2 search operations 
 
+## Binary Search 
 
+A binary search or half-interval search algorithm finds the position of a target value within a sorted array. The binary search algorithm can be classified as a dichotomic divide-and-
+conquer search algorithm executes in logarithmic time.
 
+Basic Concept: 
+• Binary search works if the array is sorted.
+– Look for the target in the middle.
+– If you don’t find it, you can ignore half of the array, and repeat the process with the other
+half.
+• In every step, we reduce the number of elements to search in by half.
