@@ -74,3 +74,12 @@ Basic Concept:
 – Look for the target in the middle. \
 – If you don’t find it, you can ignore half of the array, and repeat the process with the other half. \
 • In every step, we reduce the number of elements to search in by half.
+
+Properties:
+1. Best Case performance – The middle element is equal to the ‘input key’ O(1).
+2. Worst Case performance - The ‘input key’ is not present in the list O(logn).
+3. Average Case performance – The ‘input key’ is present, but it’s not the middle element
+O(logn).
+4. The List should be sorted for using Binary Search Algorithm.
+5. It is faster than Linear Search algorithm, and its performance increases in comaparison to
+linear search as N grows.
