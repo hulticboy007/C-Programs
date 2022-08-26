@@ -35,11 +35,22 @@ int main(){
         }else if (a[mid]==key)
         {
             /* code */
-            
+            printf("%d found at location %d\n",key,mid+1);
+            break;
+        }else if (a[mid]>key)
+        {
+            /* code */
+            high=mid+1;
         }
+        mid=(low+high)/2;
+    }
+    if (low>high)
+    {
+        printf("Element not found\n");
+    }
+    return 0;
         
         
     }
     
     
-}
