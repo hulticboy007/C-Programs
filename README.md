@@ -82,5 +82,9 @@ linear search as N grows.
 4. String itself is not a datatype.
 5. " " is for strings and ' ' is for characters.
 
-### Declaration
+### Inputing
+
+1. Many ways are there, like scanf,gets,fgets,and so on.
+2. scanf cannot be used for multiple words.
+3. gets can be used in this case(problem: buffer overflow)
 
