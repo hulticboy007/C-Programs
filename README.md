@@ -74,4 +74,13 @@ O(logn).
 5. It is faster than Linear Search algorithm, and its performance increases in comaparison to
 linear search as N grows.
 
+## Strings
+
+1. Array of characters
+2. Syntax: char name[size];
+3. Character occupy one byte.
+4. String itself is not a datatype.
+5. " " is for strings and ' ' is for characters.
+
+### Declaration
 
