@@ -10,7 +10,8 @@ int main(){
         printf("Enter the %d element: ",i);
         scanf("%d",&a[i]);
     }
-        for(x = 0; x < n - 1; x++){       
+    
+    for(x = 0; x < n - 1; x++){       
 
         for(y = 0; y < n - x - 1; y++){          
 
