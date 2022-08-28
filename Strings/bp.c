@@ -1,14 +1,9 @@
 /** Program to 
- * 
  * ALGORITHM
- * 
- * START
- * 
- * 
- * 
- * STOP
 * */
 #include<stdio.h>
+#include<string.h>
+
 int main(){
 
 }
