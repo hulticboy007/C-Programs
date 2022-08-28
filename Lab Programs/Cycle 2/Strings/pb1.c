@@ -5,11 +5,12 @@
 #include<string.h>
 
 int main(){
-    char fname[10], lname[10];
+    char fname[30], lname[10],l1,l2;
     printf("Enter the first name: ");
     gets(fname);
     printf("Enter the last name: ");
     gets(lname);
     strcat(fname,lname);
     puts(fname);
+    
 }
