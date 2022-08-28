@@ -1,4 +1,4 @@
-// program to concatenate without strcat function
+// To write a program to conacate two strings without using any funnctions
 
 #include<stdio.h>
 #include<string.h>

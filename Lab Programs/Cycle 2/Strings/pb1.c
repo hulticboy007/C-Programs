@@ -1,6 +1,4 @@
-// To write a program to perform string manipulation functions like string concatenations,
-// comparison, find the length and string copy without using library functions.
-
+// To write a program to conacate two strings without using any funnctions
 #include<stdio.h>
 #include<string.h>
 
