@@ -13,7 +13,7 @@ int main(){
    {
     /* code */
     ch=s1[i];
-    s1[i]=s1[l-i];
+    s1[i]=s1[l-i-1];
     s1[l-i-1]=ch;
    }
     puts(s1);
