@@ -5,7 +5,7 @@ void fun(int,int);
 
 void main(){
     int x=5,y=7;
-    fun(x,y);
+    fun(x,y); //call by value
     printf("x: %d, y: %d ",x,y);
 }
 void fun(int x,int y){
