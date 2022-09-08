@@ -5,12 +5,14 @@
 
 void main(){
     int a,b,*aa,*bb,swap();
-    clrscr();
+    
     a=5;
     b=10;
     aa=&a;
     bb=&b;
-    printf("Value of a=%d & value of b=%d before swap",a,b);
+    printf("Value of a=%d & value of b=%d before swap\n",a,b);
+    printf("Value of aa=%d & value of bb=%d \n",aa,bb);
+    
     swap(aa,bb);
     printf("\nvalue of a=%d & b=%d after swap",a,b);
     getch();
