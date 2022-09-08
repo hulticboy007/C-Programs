@@ -9,8 +9,8 @@ int main(){
     table(n);
 }
 int table(int n){
-    int n,i,r;
-    for (i = 0; i <= 10; i++)
+    int i,r;
+    for (i = 1; i <= 10; i++)
     {
         r=n*i;
         printf("%d * %d = %d\n",n,i,r);
