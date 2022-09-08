@@ -1,4 +1,4 @@
-// program to show call by reference
+// program to show call by reference, in call by reference we are using pointers to refernce it instead of using the actual value
 
 #include<stdio.h>
 #include<conio.h>
