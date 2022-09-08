@@ -1,7 +1,19 @@
 //program to print multiplication table for a number using functions
 
 #include<stdio.h>
-void table();
+int table(int);
 int main(){
+    int n;
+    printf("Enter the number: ");
+    scanf("%d",&n);
+    table(n);
+}
+int table(int n){
+    int n,i,r;
+    for (i = 0; i <= 10; i++)
+    {
+        r=n*i;
+        printf("%d * %d = %d\n",n,i,r);
+    }
     
 }
