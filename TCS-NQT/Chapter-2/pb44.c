@@ -4,15 +4,16 @@
 void max(int,int);
 int main(){
     int x,y;
-    printf("Enter the two numbers");
-    scanf("%d %d",x,y);
+    printf("Enter the two numbers: ");
+    scanf("%d %d",&x,&y);
     max(x,y);
 }
 void max(int x,int y){
+    int max;
     if(x>y){
-        printf("%d",x);
+        max=x;
     }else{
-        printf("%d",y);
+        max=y;
     }
-    
+    printf("max=%d",max);
 }
