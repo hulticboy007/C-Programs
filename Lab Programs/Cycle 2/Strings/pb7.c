@@ -53,10 +53,11 @@ int main(){
     }
     printf("%s",first);
     
-    for ( i = 0; first[i]!='\0'; i++)
+    for ( i = 0; first[i]!='\0'; ++i)
     {
         string2[i]=first[i];
     }
-    printf("\nCopied string");
+    string2[i] = '\0';
+    printf("\nCopied string: ");
     printf("%s",string2);
 }
