@@ -4,7 +4,13 @@
 
 int main(){
     int n;
-    printf("number of names: ");
+    printf("no. of names: ");
     scanf("%d",&n);
+    char names[n][100];
+    for (int i = 0; i <n; i++)
+    {
+        scanf("%s",names[i]);
+    }
+    
     
 }
