@@ -2,7 +2,9 @@
 comparison, find the length and string copy without using library functions. */ 
 #include<stdio.h>
 #include<string.h>
+
 int main(){
+    
     printf("\n Concatanation,Comparison,Length and Copy without using function \n\n");
     int i,point=0,flag=0;
     char first[30],sec[30],l1,l2;
