@@ -17,6 +17,7 @@ int main()
     {
         sum=sum+arr[j];
     }
-    printf("Sum is %d",sum);
-    
+    printf("Sum is %d\n",sum);
+    mean=sum/n;
+    printf("Mean is %d",mean);
 }
