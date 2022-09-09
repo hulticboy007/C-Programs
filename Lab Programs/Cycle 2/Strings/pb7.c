@@ -52,7 +52,7 @@ int main(){
         first[l1+i]=sec[i];
     }
     printf("%s",first);
-    
+    printf("\n String Copy : ");
     
     
 }
