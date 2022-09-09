@@ -6,7 +6,7 @@ comparison, find the length and string copy without using library functions. */
 int main(){
 
     printf("\n Concatanation,Comparison,Length and Copy without using function \n\n");
-    int i,point=0,flag=0;
+    int i,point=0,flag=0,c1=0,c2=0;
     char first[30],sec[30],l1,l2;
     printf("Enter the first string: ");
     scanf("%s",first);
@@ -27,13 +27,23 @@ int main(){
     }
     if (flag==1)
     {
-        printf("Not same, similarity broke at %d ",point);
+        printf("Not same, similarity broke at index %d ",point);
     }else{
         printf("Same");
     }
 
-    printf("\n String Length : ");
     
+    for ( i = 0; first[i]!='\0'; i++)       
+    {
+        c1++;
+    }
+    for ( i = 0; sec[i]!='\0'; i++)       
+    {
+        c2++;
+    }
+    printf("\n First String Length : %d",c1);
+    printf("\n Second String Length : %d",c2);
+
     printf("\n String Concatanation : ");
     l1=strlen(first);
     l2=strlen(sec);
