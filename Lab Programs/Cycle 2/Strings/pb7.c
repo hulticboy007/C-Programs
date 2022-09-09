@@ -9,13 +9,13 @@ int main(){
     gets(first);
     printf("Enter the second string: ");
     gets(sec);
-    printf("\n Concatanation without using function \n");
+    printf("\n Concatanation without using function : ");
     l1=strlen(first);
     l2=strlen(sec);
     for (i = 0; i < l2; i++)
     {
         first[l1+i+1]=sec[i];
     }
-    printf("%s\n",first);
+    printf("%s",first);
     printf("\n String Comparison: \n");
 }
