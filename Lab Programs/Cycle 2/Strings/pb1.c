@@ -1,4 +1,4 @@
-// To write a program to conacate two strings without using any funnctions
+// To write a program to conacate two strings
 #include<stdio.h>
 #include<string.h>
 
