@@ -3,18 +3,19 @@ comparison, find the length and string copy without using library functions. */
 #include<stdio.h>
 #include<string.h>
 int main(){
+    printf("\n Concatanation,Comparison,Length and Copy without using function \n\n");
     int i;
-    char first[50],sec[50],l1,l2;
+    char first[30],sec[30],l1,l2;
     printf("Enter the first string: ");
-    gets(first);
+    scanf("%s",first);
     printf("Enter the second string: ");
-    gets(sec);
+    scanf("%s",sec);
     printf("\n Concatanation without using function : ");
     l1=strlen(first);
     l2=strlen(sec);
-    for (i = 0; i < l2; i++)
+    for (i = 0; i <= l2; i++)
     {
-        first[l1+i+1]=sec[i];
+        first[l1+i]=sec[i];
     }
     printf("%s",first);
     printf("\n String Comparison: \n");
