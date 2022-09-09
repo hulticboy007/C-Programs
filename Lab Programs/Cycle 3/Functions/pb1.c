@@ -5,7 +5,7 @@
 
 int main()
 {
-    int n,sum=0,mean=0,var,sd,df;
+    int n,sum=0,mean=0,var=0,sd=0,df=0;
     printf("Enter the array length: ");
     scanf("%d",&n);
     int arr[n];
@@ -22,7 +22,7 @@ int main()
     mean=sum/n;
     for (int k = 0; k < n; k++)
     {
-        df=df+(mean-arr[k]);
+        df=df+((mean-arr[k])*(mean-arr[k]));
     }
     var=(df*df)/n;
     sd=sqrt(var);
