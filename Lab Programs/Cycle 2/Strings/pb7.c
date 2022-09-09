@@ -57,6 +57,6 @@ int main(){
     {
         string2[i]=first[i];
     }
-    printf("\nCopied string: %s",string2);
-    
+    printf("\nCopied string");
+    printf("%s",string2);
 }
