@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 
+
 int main()
 {
     int n,sum=0,mean=0,sd,div;
@@ -18,6 +19,6 @@ int main()
         sum=sum+arr[j];
     }
     printf("Sum is %d\n",sum);
-    mean=sum/n;
-    printf("Mean is %d",mean);
+    
+    
 }
