@@ -3,13 +3,10 @@
 #include<stdio.h>
 #include<math.h>
 
-void sd();
+int mean(int,int);
 int main()
 {
-    sd(); 
-}
-void sd(){
-    int n,sum=0,mean=0,var=0,df=0;
+    int n,sum=0,mean=0,var=0,df=0,m;
     float sd;
     printf("Enter the array length: ");
     scanf("%d",&n);
@@ -24,15 +21,23 @@ void sd(){
         sum=sum+arr[j];
     }
     printf("Sum is %d\n",sum);
- 
-    mean=sum/n;
+    m=mean(sum,n);
+}
+
+int mean(int x,int y){
+    int mx;    
+    mx=x/y;
+    return mx;
+    }
+
+
+
     for (int k = 0; k < n; k++)
     {
         df=df+((mean-arr[k])*(mean-arr[k]));
     }
     var=(df)/n;
     sd=sqrt(var);
-    printf("Mean is %d\n",mean);
+    
     printf("Variance is %d\n",var);
     printf("Standard deviation is %f\n",sd);
-}
