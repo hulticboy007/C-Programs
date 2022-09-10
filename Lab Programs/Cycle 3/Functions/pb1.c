@@ -5,7 +5,8 @@
 
 int main()
 {
-    int n,sum=0,mean=0,var=0,sd=0,df=0;
+    int n,sum=0,mean=0,var=0,df=0;
+    float sd;
     printf("Enter the array length: ");
     scanf("%d",&n);
     int arr[n];
@@ -24,11 +25,11 @@ int main()
     {
         df=df+((mean-arr[k])*(mean-arr[k]));
     }
-    var=(df*df)/n;
+    var=(df)/n;
     sd=sqrt(var);
     printf("Mean is %d\n",mean);
     printf("Variance is %d\n",var);
-    printf("Standard deviation is %d\n",sd);
+    printf("Standard deviation is %f\n",sd);
     
     
     
