@@ -3,8 +3,12 @@
 #include<stdio.h>
 #include<math.h>
 
+void sd();
 int main()
 {
+    sd(); 
+}
+void sd(){
     int n,sum=0,mean=0,var=0,df=0;
     float sd;
     printf("Enter the array length: ");
@@ -20,6 +24,7 @@ int main()
         sum=sum+arr[j];
     }
     printf("Sum is %d\n",sum);
+ 
     mean=sum/n;
     for (int k = 0; k < n; k++)
     {
@@ -30,7 +35,4 @@ int main()
     printf("Mean is %d\n",mean);
     printf("Variance is %d\n",var);
     printf("Standard deviation is %f\n",sd);
-    
-    
-    
 }
