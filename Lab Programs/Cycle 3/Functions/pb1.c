@@ -5,10 +5,12 @@
 
 int mean(int[],int);
 int var(int[],int,int);
+int sd(int);
+
 int main()
 {
     int n,means,variance;
-    float sd;
+    float sdiv;
     printf("Enter the array length: ");
     scanf("%d",&n);
     int arr[n];
@@ -20,9 +22,10 @@ int main()
     means=mean(arr,n);
     printf("mean = %d\n",means);
     variance=var(arr,means,n);
-    printf("variance = %d",variance);
+    printf("variance = %d\n",variance);
+    sdiv=sd(variance);
+    printf("standerd deviation = %d\n",sdiv);
 }
-
 
 int mean(int arr[],int y){
     int mx=0,meanss;    
@@ -42,6 +45,10 @@ int var(int arr[],int u,int w){
     vari=my/w;
     return vari;
     }
-
+int sd(int x){
+    float mw;
+    mw=sqrt(x);
+    return mw;
+}
 
     
