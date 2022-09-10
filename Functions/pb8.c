@@ -4,9 +4,9 @@
 
 void display(char[]);
 int main(){
-    char string[]="harshed";
-    // printf("Enter the string: ");
-    // scanf("%s",string);
+    char string[]="";
+    printf("Enter the string: ");
+    scanf("%s",string);
     display(string);
 }
 void display(char string[]){
