@@ -3,10 +3,10 @@
 #include<stdio.h>
 #include<math.h>
 
-int mean(int,int);
+int mean(int[],int);
 int main()
 {
-    int n,sum=0,mean=0,var=0,df=0,m;
+    int n,means;
     float sd;
     printf("Enter the array length: ");
     scanf("%d",&n);
@@ -16,28 +16,21 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    for (int j = 0; j < n; j++)
-    {
-        sum=sum+arr[j];
-    }
-    printf("Sum is %d\n",sum);
-    m=mean(sum,n);
+    means=mean(arr,n);
+    printf("mean = %d",means);
 }
 
-int mean(int x,int y){
-    int mx;    
-    mx=x/y;
-    return mx;
-    }
 
-
-
-    for (int k = 0; k < n; k++)
+int mean(int arr[],int y){
+    int mx=0,meanss;    
+    for (int i = 0; i < y; i++)
     {
-        df=df+((mean-arr[k])*(mean-arr[k]));
+        mx=mx+arr[i];
     }
-    var=(df)/n;
-    sd=sqrt(var);
+    meanss=mx/y;
+    return meanss;
+    }
+
+
+
     
-    printf("Variance is %d\n",var);
-    printf("Standard deviation is %f\n",sd);
