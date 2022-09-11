@@ -3,11 +3,12 @@
 #include<stdio.h>
 
 int* myaddress(int gps[]){
-    return &gps;
+    gps=gps+3;
+    return gps;
 }
 int main(){
-    int place;
+    int *place;
     int gps[]={99,1,234,43};
     place=myaddress(gps);
-    printf("%d",&place);    
+    printf("%d",*place);    
 }
