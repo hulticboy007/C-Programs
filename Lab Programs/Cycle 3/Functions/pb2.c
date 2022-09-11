@@ -3,11 +3,11 @@
 #include<stdio.h>
 
 int sequential(int arr[],int find,int length){
-    int position=0,flag=0;
+    int position,flag=0;
     for (int i = 0; i < length; i++)
 
     {
-        if (find=arr[i])
+        if (find==arr[i])
         {
             /* code */
             flag=1;
@@ -16,7 +16,12 @@ int sequential(int arr[],int find,int length){
         }
     
 }
-return position;
+if(flag==1){
+    return position;
+}else{
+    return "not found";
+}
+
 }
 int main(){
     int n,i,find,bin,seq;
