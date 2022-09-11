@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 char* harshed(){
-    return "abdulla is king!!!";
+    return "abdulla is king!!";
 }
 
 int main(){
