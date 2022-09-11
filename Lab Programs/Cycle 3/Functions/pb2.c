@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 int sequential(int arr[],int find,int length){
-    int position,flag=0;
+    int position,flag=0,x=0;
     for (int i = 0; i < length; i++)
 
     {
@@ -19,9 +19,9 @@ int sequential(int arr[],int find,int length){
 if(flag==1){
     return position;
 }else{
-    return "not found";
-}
+    return 0;
 
+}
 }
 int main(){
     int n,i,find,bin,seq;
