@@ -23,6 +23,33 @@ if(flag==1){
 
 }
 }
+
+void binary(int arr[],int find,int length){
+    int low=0,high=length-1,mid=(high+low)/2;
+    while (low<high)
+    {   
+        if (arr[mid]<=find)
+        {
+            low=mid+1;
+        }else if (arr[mid]==find)
+        {
+            printf("%d found at location %d\n",find,mid+1);
+            break;
+        }else if (arr[mid]>find)
+        {
+            /* code */
+            high=mid+1;
+        }
+        mid=(high+low)/2;
+    }
+    if (low>high)
+    {
+        /* code */
+        printf("Element not found\n");
+    }
+}
+
+
 int main(){
     int n,i,find,bin,seq;
     printf("Array length: \n");
@@ -38,8 +65,8 @@ int main(){
     scanf("%d",&find);
     seq=sequential(arr,find,n);
     printf("sequential: %dth index",seq);
-    // bin=binary(arr,find);
-    // printf("binary: %dth",bin);
+    binary(arr,find,n);
+    
 
 
 }
