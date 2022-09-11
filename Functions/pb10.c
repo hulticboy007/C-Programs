@@ -3,11 +3,12 @@
 #include<stdio.h>
 
 char* harshed(){
-    return "abdulla is king!";
+    return "abdulla is king!!!";
 }
 
 int main(){
-    char hack[]=harshed();
+    char* hack;
+    hack=harshed();
     
     printf("%s",hack);
 }
