@@ -1,4 +1,4 @@
-
+//program to sequential and binary search using functions
 
 #include<stdio.h>
 int sequential(int arr[],int find,int length){
