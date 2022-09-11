@@ -1,8 +1,30 @@
 
 
 #include<stdio.h>
-void binary(int arr[],int find,int length){
+int sequential(int arr[],int find,int length){
+    int position,flag=0,x=0;
+    for (int i = 0; i < length; i++)
+
+    {
+        if (find==arr[i])
+        {
+            /* code */
+            flag=1;
+            position=i;
+            break;
+        }
     
+}
+if(flag==1){
+    return position;
+}else{
+    return 0;
+
+}
+}
+
+void binary(int arr[],int find,int length){
+    printf("\nBINARY SEARCH: \n");
     //if elements are not sorted
     for (int j = 0; j < length; j++)
     {
@@ -27,7 +49,7 @@ void binary(int arr[],int find,int length){
         }else if (arr[mid]==find)
         {
             /* code */
-            printf("%d found at location %d\n",find,mid+1);
+            printf("%d found at index %d\n",find,mid);
             break;
         }else if (arr[mid]>find)
         {
@@ -57,7 +79,9 @@ int main(){
     scanf("%d",&find);
     
     binary(arr,find,n);
-    
+    seq=sequential(arr,find,n);
+    printf("\nSEQUENTIAL SEARCH: \n");
+    printf("Value found at %dth index\n",seq);
 
 
 }
