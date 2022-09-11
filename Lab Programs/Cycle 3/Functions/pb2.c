@@ -1,14 +1,28 @@
 // program to perform sequential and binary search using functions
 
 #include<stdio.h>
-int sequential(int arr[],find){
+
+int sequential(int arr[],int find,int length){
+    int position=0,flag=0;
+    for (int i = 0; i < length; i++)
+
+    {
+        if (find=arr[i])
+        {
+            /* code */
+            flag=1;
+            position=i;
+            break;
+        }
     
+}
+return position;
 }
 int main(){
     int n,i,find,bin,seq;
     printf("Array length: \n");
     scanf("%d",&n);
-    printf("Enter array: ");
+    printf("Enter array: \n");
     int arr[n];
     for (i = 0; i < n; i++)
     {
@@ -17,10 +31,10 @@ int main(){
     }
     printf("Enter the value to be searched: ");
     scanf("%d",&find);
-    seq=sequential(arr,find);
+    seq=sequential(arr,find,n);
     printf("sequential: %dth index",seq);
-    bin=binary(arr,find);
-    printf("binary: %dth",bin);
+    // bin=binary(arr,find);
+    // printf("binary: %dth",bin);
 
 
 }
