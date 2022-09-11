@@ -9,6 +9,6 @@ char* harshed(){
 int main(){
     char* hack;
     hack=harshed();
-    
+    hack[0]='A'; 
     printf("%s",hack);
 }
