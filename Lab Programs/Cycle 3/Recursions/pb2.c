@@ -1,3 +1,4 @@
+//HARSHED ABDULLA CS A 43
 // program to print fibanoci series using recursion
 
 #include<stdio.h>
@@ -20,3 +21,9 @@ int main(){
     fiba(z-2);
     
 }
+/* OUTPUT
+Number:5
+
+FIBANOCCI SERIES
+0 1  1  2  3
+*/

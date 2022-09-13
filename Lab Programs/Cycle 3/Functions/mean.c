@@ -24,7 +24,7 @@ int main()
     variance=var(arr,means,n);
     printf("variance = %d\n",variance);
     sdiv=sd(variance);
-    printf("standard deviation = %d\n",sdiv);
+    printf("standard deviation = %f\n",sdiv);
 }
 
 int mean(int arr[],int y){

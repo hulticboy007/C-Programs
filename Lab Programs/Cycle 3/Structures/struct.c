@@ -1,3 +1,4 @@
+// HARSHED ABDULLA CS A 43
 // program to display the marks of students
 
 #include<stdio.h>
@@ -36,3 +37,26 @@ int main(){
     
     
 }
+
+/* OUTPUT
+Number of students: 3
+Enter details of 1 : 
+Name: HARSHED
+Subject: MATHS
+Marks: 99
+Mobile no: 9188020170
+Enter details of 2 : 
+Name: ATHUL 
+Subject: GRAPHICS 
+Marks: 99
+Mobile no: 3942342324
+Enter details of 3 : 
+Name: JAZIM
+Subject: PROBABILITY
+Marks: 95
+Mobile no: 2342389492
+Mark sheet data of 1: Name:HARSHED  Subject:MATHS  Marks:99.000000  Mobile:598085578 
+Mark sheet data of 2: Name:ATHUL  Subject:GRAPHICS  Marks:99.000000  Mobile:-352624972
+Mark sheet data of 3: Name:JAZIM  Subject:PROBABILITY  Marks:95.000000  Mobile:-1952577804
+
+*/
