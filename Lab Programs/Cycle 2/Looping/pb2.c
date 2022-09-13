@@ -1,12 +1,6 @@
-/** Program to print pascals triangle
- * 
- * ALGORITHM
- * 
- * START
- * initialize variables
- * Print "Enter the numbers"
- * pri
- * STOP
+/**harshed abdulla
+ * cs a 43 
+ * Program to print pascals triangle
 * */
 #include<stdio.h>
 int main(){
@@ -31,3 +25,11 @@ int main(){
     
     return 0;
 }
+/* output
+Enter the number of rows 5
+      1 
+     1 1
+    1 2 1
+   1 3 3 1
+  1 4 6 4 1
+  */

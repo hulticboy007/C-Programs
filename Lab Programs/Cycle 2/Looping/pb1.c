@@ -1,12 +1,6 @@
-/** Program to find the prime numbers in a range
- * 
- * ALGORITHM
- * 
- * START
- * input n1,n2
- * 
- * 
- * STOP
+/** harshed abdulla
+ * Program to find the prime numbers in a range
+
 * */
 #include<stdio.h>
 int main(){
@@ -36,3 +30,19 @@ int main(){
     }
     return 0;
 }
+
+/* output
+Enter the two numbers: 5 45
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+*/
