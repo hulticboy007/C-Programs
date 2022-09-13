@@ -1,3 +1,4 @@
+// harshed abdulla
 /* To write a program to perform string manipulation functions like string concatenations,
 comparison, find the length and string copy without using library functions. */ 
 #include<stdio.h>
@@ -77,3 +78,18 @@ int main(){
     break;
 }
 }
+/* output
+
+ Concatanation,Comparison,Length and Copy without using function
+
+Enter the first string: harshed
+Enter the second string: abdulla
+Options
+1.String Comparison
+2.String Length
+3.String Concatanation
+4.String Copy
+1
+
+ String Comparison: Not same, similarity broke at index 0
+ */

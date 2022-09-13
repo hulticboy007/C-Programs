@@ -1,3 +1,4 @@
+// harshed abdulla cs a 43
 // To write a C program to calculate the mean, variance and standard deviation using functions.
 
 #include<stdio.h>
@@ -52,3 +53,10 @@ int sd(int x){
 }
 
     
+/* output
+Enter the array length: 5
+Enter the numbers: 1 2 3 4 5
+mean = 3
+variance = 2
+standard deviation = 1.000000
+*/

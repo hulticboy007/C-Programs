@@ -1,3 +1,4 @@
+// harshed abdulla
 //program to sequential and binary search using functions
 
 #include<stdio.h>
