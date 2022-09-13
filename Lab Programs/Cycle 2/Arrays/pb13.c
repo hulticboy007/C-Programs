@@ -1,4 +1,5 @@
-// program to sort numbers in an array using bubble sort
+//harshed abdulla 
+//program to sort numbers in an array using bubble sort
 #include<stdio.h>
 int main(){
     int n,x,y,temp;
@@ -40,5 +41,14 @@ int main(){
     return 0;
 
 }
-        
+
+/* output
+Enter the array length: 5
+Enter the 0 element: 1
+Enter the 1 element: 2
+Enter the 2 element: 23
+Enter the 3 element: 45
+Enter the 4 element: 32
+Array after implementing bubble sort: 1  2  23  32  45  
+*/
     
