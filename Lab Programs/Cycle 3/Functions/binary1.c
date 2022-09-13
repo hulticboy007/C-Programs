@@ -1,6 +1,8 @@
 //program to sequential and binary search using functions
 
 #include<stdio.h>
+
+
 void sequential(int z){
     printf("\nSEQUENTIAL SEARCH:  \n");
     
@@ -32,9 +34,9 @@ void sequential(int z){
 }
 
 void binary(int k){
-    printf("\nBINARY SEARCH:  \n");
+    printf("\n BINARY SEARCH:  \n");
     
-    int n,i,find,bin,seq,choice,length;
+    int n,i,choice,length;
     printf("Array length: \n");
     scanf("%d",&length);
     printf("Enter the values in ascending order\n");
@@ -52,7 +54,7 @@ void binary(int k){
         {
             /* code */
             low=mid+1;
-        }else if (arr[mid]==k)
+        }else if (k==arr[mid])
         {
             /* code */
             printf("%d found at index %d\n",k,mid);
@@ -89,3 +91,18 @@ int main(){
     }
     }
     	
+/* OUTPUT
+Enter the value to be searched: 5
+Array to be searched in? 
+1.binary
+2.sequential
+1
+
+ BINARY SEARCH:
+Array length:
+5
+Enter the values in ascending order
+Enter array:
+1 23 45 67 5
+5 found at position 5
+*/
