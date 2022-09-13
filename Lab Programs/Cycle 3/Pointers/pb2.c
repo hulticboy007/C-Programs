@@ -17,7 +17,7 @@ int main(void){
     scanf("%d",&find);
     for (int j = 0; j < n; j++)
     {
-        if (find==arr[j])
+        if (*(p+j)==find)
         {
             count++;
         }
