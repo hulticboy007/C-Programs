@@ -1,3 +1,4 @@
+//harshed abdulla
 // program using pointers to access the elements of an array and count the no. of occurances of the given number in the array.
 
 #include<stdio.h>
@@ -25,3 +26,14 @@ int main(void){
     }
     printf("No. of occurance: %d",count);   
 }
+
+/* OUTPUT
+Enter the no. of elements: 5
+Enter the 1 element: 1
+Enter the 2 element: 2
+Enter the 3 element: 3
+Enter the 4 element: 4
+Enter the 5 element: 5
+Enter element to find occurance: 5
+No. of occurance: 1
+*/
