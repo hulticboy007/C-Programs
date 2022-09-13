@@ -1,12 +1,5 @@
-/** Program to print the sum and average of elements in an array
- * 
- * ALGORITHM
- * 
- * START
- * 
- * 
- * 
- * STOP
+/**harshed abdulla 
+ * Program to print the sum and average of elements in an array
 * */
 #include<stdio.h>
 int main(){
@@ -27,3 +20,14 @@ int main(){
     printf("Sum is %d\n",sum);
     printf("Average is %d\n",avg);
 }
+
+/* output
+Enter the elements in the array: 5
+Enter the 0th element: 1
+Enter the 1th element: 2
+Enter the 2th element: 3
+Enter the 3th element: 4
+Enter the 4th element: 5
+Sum is 15
+Average is 3
+*/
