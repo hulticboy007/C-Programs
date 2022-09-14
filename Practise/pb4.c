@@ -1,5 +1,3 @@
-//HARSHED ABDULLA CSA 43
-//To write a program to count the number of characters,lines in a file. 
 // program to count the number of lines and characters in a file
 
 #include<stdio.h>
@@ -31,8 +29,3 @@ int main(){
     printf("Line count: %d\n",lcount);
     return 0;
 }
-//-----------------OUTPUT---------------------
-
-/* Enter the file name: test.txt
-The character and word count in test.txt file are:Character count: 47
-Line count: 2 */
