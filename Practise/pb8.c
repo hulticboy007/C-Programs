@@ -15,7 +15,7 @@ int main(){
     int n;
     printf("number: ");
     scanf("%d",&n);
-    printf(" 1 ");
-    fiba(n-1);
+    printf(" 0 1 ");
+    fiba(n-2);
     return 0;
 }
