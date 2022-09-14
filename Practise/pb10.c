@@ -1,7 +1,7 @@
 // program to bubble sort
 #include<stdio.h>
 int main(){
-    int temp,n;
+    int temp,n,l;
     printf("Enter array size: \n");
     scanf("%d",&n);
     int arr[n];
@@ -28,6 +28,24 @@ int main(){
     {
         printf(" %d ",arr[j]);
     }
+    printf("Enter the value to be searched: \n");
+    scanf("%d",&l);
+    int low=0,high=n-1,mid=(high+low)/2;
     
+       while (low<=high)
+    {
+        if (arr[mid]<l)
+        {
+            low=mid+1;  
+        }else if (l==arr[mid])
+        {
+            printf("position: %d",mid+1);
+            break;
+        }else if (arr[mid]>l)
+        {
+            high=mid+1;
+        } 
+        mid=(low+high)/2;               
+    }    
     
 }

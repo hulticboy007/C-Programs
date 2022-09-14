@@ -28,7 +28,7 @@ void sequential(int y){
     }       
 }
 void binary(int l){
-    int s,pos,flag=0,temp;
+    int s,pos,flag=0;
     printf("Enter array length: ");
     scanf("%d",&s);
     int arr[s];
@@ -37,20 +37,7 @@ void binary(int l){
     {
         scanf("%d",&arr[i]);
     }
-        for (int k = 0; k < s-1; k++)
-    {
-        for (int z = 0; z < s-k-1; z++)
-        {
-            if (arr[z]>arr[z+1])
-            {
-                temp=arr[z];
-                arr[z]=arr[z+1];
-                arr[z+1]=temp;
-            }
-            
-        }
-        
-    }
+    
     int low=0,high=s-1,mid=(high+low)/2;
     
        while (low<=high)
