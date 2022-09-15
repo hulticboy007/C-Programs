@@ -28,7 +28,8 @@ int main(){
     {
         printf(" %d ",arr[j]);
     }
-    printf("Enter the value to be searched: \n");
+    printf("\n");
+    printf("Enter the value to be searched: ");
     scanf("%d",&l);
     int low=0,high=n-1,mid=(high+low)/2;
     
@@ -47,5 +48,9 @@ int main(){
         } 
         mid=(low+high)/2;               
     }    
+    if (low>high)
+    {
+        printf("element not found");
+    }
     
 }
