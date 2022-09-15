@@ -1,12 +1,13 @@
 // pointer function
 
 #include<stdio.h>
-void *(sum)(int a,int b){
-    int sum=0;
-    sum=a+b;
-    printf("%d",sum);
-}
+int sum(int,int);
 int main(){
-    int a=7,b=5;
-    sum(a,b);
+    int s=0;
+    int (*ptr)(int,int)=&sum;
+    s=(*ptr)(3,3);
+    printf("%d",s);
+}
+int sum(int a,int b){
+    return a+b;
 }
