@@ -88,3 +88,8 @@ linear search as N grows.
 2. scanf cannot be used for multiple words.
 3. gets can be used in this case(problem: buffer overflow)
 
+## Files
+
+1. Files are used to store data in a non - volatile manner so that the data still exists adter execution of the program.
+2. It is used in different places and has varying uses.
+3. It can create, open , read and write something.
